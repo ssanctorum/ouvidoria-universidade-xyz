@@ -71,15 +71,23 @@ CREATE TABLE Manifestacoes (
 # 2. Execução do Projeto
 
 1. Clone o repositório
+```
 git clone https://github.com/ssanctorum/ouvidoria-universidade-xyz.git
+```
 
 2. Entre na pasta
+```
 cd ouvidoria-universidade-xyz
+```
 
 3. Instale a dependência
+```
 pip install mysql-connector-python
+```
 
 4. Execute o sistema
+```
 python menu.py
+```
 
 Não esqueça de alterar as credenciais de conexão no arquivo `menu.py` (usuário e senha do MySQL).
